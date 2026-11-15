@@ -1,0 +1,29 @@
+{
+  "name": "institute-management-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Coaching Institute Attendance & Notification System",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:migrate": "node src/db/migrate.js"
+  },
+  "keywords": [
+    "coaching",
+    "attendance",
+    "whatsapp",
+    "pwa",
+    "postgresql",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1"
+  }
+}

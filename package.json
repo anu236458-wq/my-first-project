@@ -1,0 +1,12 @@
+{
+  "name": "institute-app",
+  "version": "1.0.0",
+  "description": "Coaching Institute Management System",
+  "scripts": {
+    "dev": "npx concurrently -n \"BACKEND,FRONTEND\" -c \"blue,magenta\" \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "build:frontend": "npm --prefix frontend run build",
+    "start:single": "npm run build:frontend && npm --prefix backend start",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "start:windows": "start cmd /k \"cd /d %cd%\\backend && npm run dev\" && start cmd /k \"cd /d %cd%\\frontend && npm run dev\""
+  }
+}
