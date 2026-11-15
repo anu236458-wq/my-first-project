@@ -1,0 +1,270 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@apex.com",
+      "phone": "+919876543210",
+      "password_hash": "sha256$defaultsalt$86908ee61ea114e1728cf0613c977cb70a5f2a73b56e4db9990a4fab8561ae92",
+      "role": "ADMIN",
+      "status": "active",
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Rahul Sharma",
+      "email": "rahul@apex.com",
+      "phone": "+919876543211",
+      "password_hash": "sha256$teachersalt$2dc2c32f03354b331f250e19793272260edc29ecabfbe5c12faa6a1441c8a7fb",
+      "role": "TEACHER",
+      "status": "active",
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  ],
+  "batches": [
+    {
+      "id": 1,
+      "name": "Class 10 - Morning",
+      "subject": "Maths & Science",
+      "timing": "7:00 AM - 9:00 AM",
+      "teacher_id": 2,
+      "status": "active",
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Class 11 PCM - Evening",
+      "subject": "Physics, Chemistry, Maths",
+      "timing": "4:00 PM - 6:00 PM",
+      "teacher_id": 2,
+      "status": "active",
+      "created_at": "2026-01-01T00:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Class 12 PCB - Morning",
+      "subject": "Physics, Chemistry, Biology",
+      "timing": "7:00 AM - 9:00 AM",
+      "teacher_id": 2,
+      "status": "active",
+      "created_at": "2026-01-01T00:00:00Z"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "Anjali Singh",
+      "roll_no": "10A01",
+      "parent_name": "Ramesh Singh",
+      "parent_phone": "+919800000001",
+      "batch_id": 1,
+      "address": "123 Main St, Lucknow",
+      "student_class": "10",
+      "stream": null,
+      "board": "UP Board",
+      "subject_fees": [
+        {
+          "subject": "Maths",
+          "fee": 1500
+        },
+        {
+          "subject": "Science",
+          "fee": 1500
+        }
+      ],
+      "total_fee": 3000,
+      "joining_date": "2026-04-01",
+      "status": "inactive",
+      "created_at": "2026-04-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Rohan Verma",
+      "roll_no": "10A02",
+      "parent_name": "Suresh Verma",
+      "parent_phone": "+919800000002",
+      "batch_id": 1,
+      "address": "456 Park Lane, Lucknow",
+      "student_class": "10",
+      "stream": null,
+      "board": "CBSE",
+      "subject_fees": [
+        {
+          "subject": "Maths",
+          "fee": 2000
+        },
+        {
+          "subject": "Science",
+          "fee": 2000
+        }
+      ],
+      "total_fee": 4000,
+      "joining_date": "2026-04-01",
+      "status": "active",
+      "created_at": "2026-04-01T00:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Priya Gupta",
+      "roll_no": "11B01",
+      "parent_name": "Anil Gupta",
+      "parent_phone": "+919800000003",
+      "batch_id": 2,
+      "address": "789 Civil Lines, Lucknow",
+      "student_class": "11",
+      "stream": "PCM",
+      "board": "CBSE",
+      "subject_fees": [
+        {
+          "subject": "Physics",
+          "fee": 2000
+        },
+        {
+          "subject": "Chemistry",
+          "fee": 2000
+        },
+        {
+          "subject": "Maths",
+          "fee": 2000
+        }
+      ],
+      "total_fee": 6000,
+      "joining_date": "2026-04-01",
+      "status": "active",
+      "created_at": "2026-04-01T00:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Amit Yadav",
+      "roll_no": "11B02",
+      "parent_name": "Ravi Yadav",
+      "parent_phone": "+919800000004",
+      "batch_id": 2,
+      "address": "12 Gomti Nagar, Lucknow",
+      "student_class": "11",
+      "stream": "PCM",
+      "board": "UP Board",
+      "subject_fees": [
+        {
+          "subject": "Physics",
+          "fee": 1800
+        },
+        {
+          "subject": "Chemistry",
+          "fee": 1800
+        },
+        {
+          "subject": "Maths",
+          "fee": 1800
+        }
+      ],
+      "total_fee": 5400,
+      "joining_date": "2026-04-01",
+      "status": "active",
+      "created_at": "2026-04-01T00:00:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Sneha Tiwari",
+      "roll_no": "12C01",
+      "parent_name": "Prem Tiwari",
+      "parent_phone": "+919800000005",
+      "batch_id": 3,
+      "address": "56 Hazratganj, Lucknow",
+      "student_class": "12",
+      "stream": "PCB",
+      "board": "CBSE",
+      "subject_fees": [
+        {
+          "subject": "Physics",
+          "fee": 2200
+        },
+        {
+          "subject": "Chemistry",
+          "fee": 2200
+        },
+        {
+          "subject": "Biology",
+          "fee": 2200
+        }
+      ],
+      "total_fee": 6600,
+      "joining_date": "2026-04-01",
+      "status": "active",
+      "created_at": "2026-04-01T00:00:00Z"
+    }
+  ],
+  "attendance": [],
+  "message_logs": [],
+  "fees": [
+    {
+      "id": 1,
+      "student_id": 1,
+      "total_fee": 3000,
+      "installments": 3,
+      "amount_paid": 1000,
+      "due_date": "2026-12-01",
+      "status": "Partial",
+      "created_at": "2026-04-01T00:00:00Z",
+      "updated_at": "2026-04-01T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "student_id": 2,
+      "total_fee": 4000,
+      "installments": 3,
+      "amount_paid": 4000,
+      "due_date": "2026-12-01",
+      "status": "Paid",
+      "created_at": "2026-04-01T00:00:00Z",
+      "updated_at": "2026-04-01T00:00:00Z"
+    },
+    {
+      "id": 3,
+      "student_id": 3,
+      "total_fee": 6000,
+      "installments": 3,
+      "amount_paid": 0,
+      "due_date": "2026-12-01",
+      "status": "Pending",
+      "created_at": "2026-04-01T00:00:00Z",
+      "updated_at": "2026-04-01T00:00:00Z"
+    },
+    {
+      "id": 4,
+      "student_id": 4,
+      "total_fee": 5400,
+      "installments": 3,
+      "amount_paid": 5400,
+      "due_date": "2026-12-01",
+      "status": "Paid",
+      "created_at": "2026-04-01T00:00:00Z",
+      "updated_at": "2026-04-01T00:00:00Z"
+    },
+    {
+      "id": 5,
+      "student_id": 5,
+      "total_fee": 6600,
+      "installments": 3,
+      "amount_paid": 3300,
+      "due_date": "2026-12-01",
+      "status": "Partial",
+      "created_at": "2026-04-01T00:00:00Z",
+      "updated_at": "2026-04-01T00:00:00Z"
+    }
+  ],
+  "fee_payments": [],
+  "audit_logs": [],
+  "institute_settings": [
+    {
+      "id": 1,
+      "institute_name": "Apex Coaching Institute",
+      "institute_phone": "+919876543210",
+      "institute_address": "123 Education Hub, Lucknow, UP",
+      "whatsapp_provider": "mock",
+      "absent_message_template": "Dear Parent, your ward {student_name} was absent from {batch_name} on {date}. Please ensure regular attendance.",
+      "auto_send_absent_alerts": true,
+      "updated_at": "2026-01-01T00:00:00Z"
+    }
+  ]
+}
